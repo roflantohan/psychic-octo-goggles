@@ -1,0 +1,28 @@
+{
+    "uav_path": "/dev/ttyAMA10",
+    "uav_baud": 115200,
+    "uav_automode": "GUIDED",
+    "uav_delta_lost": 2,
+    "uav_course_lost": [0, 0, 0, 0.8],
+
+    "limit_roll": [-30, 30],
+    "limit_pitch": [-35, 35],
+    "limit_yaw": [-30, 30],
+    "limit_throttle": 1.0,
+
+    "revert_roll": true,
+    "revert_pitch": false,
+    "revert_yaw": true,
+
+    "pid_roll": [0.8, 0.05, 0.05],
+    "pid_pitch": [0.8, 0.05, 0.05],
+    "pid_yaw": [0.8, 0.05, 0.05],
+    
+    "cam_method": "RTSP",
+    "cam_path": "rtsp://192.168.144.25:8554/main.264",
+    "cam_enc": "h265",
+    "cam_width": 1280,
+    "cam_height": 720,
+
+    "gst_pipeline": ""
+}

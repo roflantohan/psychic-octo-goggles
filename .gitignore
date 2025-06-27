@@ -1,0 +1,4 @@
+opencv
+build_opencv
+opencv_contrib
+.venv
